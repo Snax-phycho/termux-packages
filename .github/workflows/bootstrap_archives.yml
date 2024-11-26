@@ -1,6 +1,9 @@
 name: Generate bootstrap archives
 
 on:
+  push:
+    branches:
+    - snx
   workflow_dispatch:
 
 permissions: {} # none
