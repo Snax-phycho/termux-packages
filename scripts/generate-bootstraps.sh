@@ -489,8 +489,8 @@ for package_arch in "${TERMUX_ARCHITECTURES[@]}"; do
         pull_package tsu
 	pull_package git
 	pull_package nano
-	#pull_package openssh
-	pull_package pixiewps
+	pull_package openssh
+	#pull_package pixiewps
 	pull_package openssl
 	pull_package iw
 	pull_package wpa-supplicant
