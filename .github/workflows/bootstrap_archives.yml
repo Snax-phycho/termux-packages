@@ -3,8 +3,6 @@ name: Generate bootstrap archives
 on:
   schedule:
     - cron: "0 0 * * 0"
-  branches:
-    - 'snx'
   workflow_dispatch:
 
 permissions: {} # none
