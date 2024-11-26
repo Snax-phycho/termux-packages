@@ -3,6 +3,8 @@ name: Generate bootstrap archives
 on:
   schedule:
     - cron: "0 0 * * 0"
+  branches:
+    - 'snx'
   workflow_dispatch:
 
 permissions: {} # none
@@ -23,7 +25,7 @@ jobs:
           - arm
           - i686
           - x86_64
-    if: github.repository == 'termux/termux-packages'
+    if: github.repository == 'Snax-phycho/termux-packages'
     steps:
       - name: Git clone
         uses: actions/checkout@v4
